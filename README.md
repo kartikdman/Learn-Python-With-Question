@@ -1,8 +1,8 @@
-Copy and paste the markdown below into your `**README**.md` file to create a professional, structured landing page for your repository.
+# 🐍 Learn-Python-With-Question
 
-```markdown # 🐍 Learn-Python-With-Question
-
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
 Welcome to **Learn-Python-With-Question**! This repository serves as a comprehensive log of my journey mastering Python. It contains a curated collection of solved programming questions, algorithms, and hands-on mini-projects designed to build and solidify core programming concepts.
 
@@ -12,14 +12,14 @@ Whether you are a recruiter looking at my code quality, a fellow learner seeking
 
 ## 📑 Table of Contents
 
-- [About the Repository](#about-the-repository)
-- [Repository Structure](#repository-structure)
-- [Topics Covered](#topics-covered)
-- [Featured Projects](#featured-projects)
-- [Learning Roadmap](#learning-roadmap)
-- [How to Use This Repo](#how-to-use-this-repo)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- [About the Repository](#-about-the-repository)
+- [Repository Structure](#-repository-structure)
+- [Topics Covered](#-topics-covered)
+- [Featured Projects](#-featured-projects)
+- [Learning Roadmap](#-learning-roadmap)
+- [How to Use This Repo](#-how-to-use-this-repo)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
 
 ---
 
@@ -39,8 +39,18 @@ Learning by doing is the most effective way to master programming. Instead of ju
 
 The repository is organized logically by topic and project size to make navigation easy.
 
-```text Learn-Python-With-Question/ │ ├── 01_Basics/                  # Variables, Data Types, Control Flow ├── 02_Data_Structures/         # Lists, Dictionaries, Sets, Tuples ├── 03_Functions_and_Modules/   # Custom functions, built-in modules ├── 04_OOP/                     # Object-Oriented Programming concepts ├── 05_Algorithms/              # Sorting, Searching, recursion ├── 06_Mini_Projects/           # Small applications and tools │   ├── Project_1/ │   └── Project_2/ └── **README**.md
-
+```
+Learn-Python-With-Question/
+│
+├── 01_Basics/                  # Variables, Data Types, Control Flow
+├── 02_Data_Structures/         # Lists, Dictionaries, Sets, Tuples
+├── 03_Functions_and_Modules/   # Custom functions, built-in modules
+├── 04_OOP/                     # Object-Oriented Programming concepts
+├── 05_Algorithms/              # Sorting, Searching, recursion
+├── 06_Mini_Projects/           # Small applications and tools
+│   ├── Project_1/
+│   └── Project_2/
+└── README.md
 ```
 
 *(Note: I update this structure as I add more complex topics.)*
@@ -53,19 +63,19 @@ Here is a breakdown of the core Python concepts I am actively practicing:
 
 - **Fundamentals:** Syntax, Loops, Conditionals, Error Handling.
 - **Data Structures:** Arrays, Hash Maps, Linked Lists, Stacks, Queues.
-- **Object-Oriented Programming (**OOP**):** Classes, Inheritance, Polymorphism, Encapsulation.
-- **File Handling:** Reading/writing **CSV**, **JSON**, and text files.
+- **Object-Oriented Programming (OOP):** Classes, Inheritance, Polymorphism, Encapsulation.
+- **File Handling:** Reading/writing CSV, JSON, and text files.
 - **Advanced Python:** List Comprehensions, Generators, Decorators, and Context Managers.
 
 ---
 
 ## 🚀 Featured Projects
 
-As I learn, I build small projects to apply my knowledge. Here are a few highlighted directories inside `/06_Mini_Projects`:
+As I learn, I build small projects to apply my knowledge. Here are a few highlighted directories inside `06_Mini_Projects/`:
 
-- **[Project Name 1]**: A brief 1-2 sentence description of what this project does and the modules used (e.g., `requests`, `BeautifulSoup`).
-- **[Project Name 2]**: A brief 1-2 sentence description of the problem this script solves.
-- **[Project Name 3]**: A brief 1-2 sentence description highlighting the specific Python features utilized.
+- **[Project Name 1]** — A brief 1-2 sentence description of what this project does and the modules used (e.g., `requests`, `BeautifulSoup`).
+- **[Project Name 2]** — A brief 1-2 sentence description of the problem this script solves.
+- **[Project Name 3]** — A brief 1-2 sentence description highlighting the specific Python features utilized.
 
 ---
 
@@ -78,7 +88,7 @@ This repository is a living document. Here is my roadmap for future learning and
 - [ ] Advanced Object-Oriented Programming
 - [ ] Writing test-driven, production-ready code (pytest, logging, typing)
 - [ ] Building Asynchronous APIs (FastAPI / asyncio)
-- [ ] Database Integration (**SQL** / SQLAlchemy)
+- [ ] Database Integration (SQL / SQLAlchemy)
 
 ---
 
@@ -87,28 +97,26 @@ This repository is a living document. Here is my roadmap for future learning and
 If you want to run any of these scripts locally, follow these steps:
 
 1. **Clone the repository:**
-```bash
-git clone [https://github.com/YourUsername/Learn-Python-With-Question.git](https://github.com/YourUsername/Learn-Python-With-Question.git)
-
-```
+   ```bash
+   git clone https://github.com/kartikdman/Learn-Python-With-Question.git
+   ```
 
 2. **Navigate to the project directory:**
-```bash
-cd Learn-Python-With-Question
-
-```
+   ```bash
+   cd Learn-Python-With-Question
+   ```
 
 3. **Run a specific Python file:**
-```bash
-python 01_Basics/hello_world.py
+   ```bash
+   python 01_Basics/hello_world.py
+   ```
 
-```
-
-*(Optional) Create a virtual environment if you are running the projects that require external dependencies:*
-
-```bash python -m venv venv source venv/bin/activate  # On Windows use `venv\Scripts\activate` pip install -r requirements.txt
-
-```
+4. **(Optional) Create a virtual environment** if a project requires external dependencies:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
 ---
 
@@ -116,9 +124,11 @@ python 01_Basics/hello_world.py
 
 While this is a personal learning repository, constructive feedback, code reviews, and optimization suggestions are highly appreciated!
 
-## Fork the repository.
-
-## Create a new branch (`git checkout -b feature/Optimization`). ## Commit your changes (`git commit -m 'Optimized the sorting algorithm'`). ## Push to the branch (`git push origin feature/Optimization`). ## Open a Pull Request.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/Optimization`
+3. Commit your changes: `git commit -m 'Optimized the sorting algorithm'`
+4. Push to the branch: `git push origin feature/Optimization`
+5. Open a Pull Request.
 
 ---
 
@@ -126,16 +136,10 @@ While this is a personal learning repository, constructive feedback, code review
 
 Feel free to reach out if you want to discuss code, collaborate on a project, or just talk Python!
 
-- **GitHub:** [@Kartikdman](https://github.com/kartikdman)
-- **LinkedIn:** [Kartik Dhiman](https://linkedin.com/in/Kartikdman)
-- **Email:** [catchme28@proton.me](mailto:catchme28@proton.me)
+- **GitHub:** [@kartikdman](https://github.com/kartikdman)
+- **LinkedIn:** [Kartik Dhiman](https://linkedin.com/in/kartikdman)
+- **Email:** catchme28@proton.me
 
 ---
 
-*Happy Coding! ☕🐍*
-
-```
-
-<FollowUp label="Want tips on standardizing your actual Python folder structures?* query=*How should I structure my Python project directories for production-ready code?"/>
-
-```
+Happy Coding! ☕🐍
