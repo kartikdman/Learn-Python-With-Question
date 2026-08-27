@@ -73,10 +73,6 @@ Here is a breakdown of the core Python concepts I am actively practicing:
 
 As I learn, I build small projects to apply my knowledge. Here are a few highlighted directories inside `06_Mini_Projects/`:
 
-- **[Project Name 1]** — A brief 1-2 sentence description of what this project does and the modules used (e.g., `requests`, `BeautifulSoup`).
-- **[Project Name 2]** — A brief 1-2 sentence description of the problem this script solves.
-- **[Project Name 3]** — A brief 1-2 sentence description highlighting the specific Python features utilized.
-
 ---
 
 ## 🗺️ Learning Roadmap
